@@ -5,7 +5,7 @@ Members who've completed 70+ hours this week 🥳
 1. Member 1
 2. Member 2
 # Champs
-Member's who've completed 50+ hours this week 🥳
+Members who've completed 50+ hours this week 🥳
 1. Member 1
 2. Member 2
 
