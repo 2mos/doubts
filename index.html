@@ -11,6 +11,11 @@
     <div id="content" class=""></div>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
       fetch("./appreciationboard/current_week.md")
         .then((response) => response.text())
         .then((data) => {
