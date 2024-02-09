@@ -8,14 +8,29 @@
   </head>
 
   <body class="prose prose-stone dark:prose-stone-dark mx-auto p-4">
-    <div id="content" class=""></div>
+    <div id="content"></div>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      const colorSchemeQuery = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      );
+
+      if (colorSchemeQuery.matches) {
         document.documentElement.classList.add("dark");
       } else {
         document.documentElement.classList.remove("dark");
       }
+
+      const colorSchemeChange = (e) => {
+        if (e.matches) {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      };
+
+      colorSchemeQuery.addEventListener("change", colorSchemeChange);
+
       fetch("./appreciationboard/current_week.md")
         .then((response) => response.text())
         .then((data) => {
