@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JEE 2024 April</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="content" class="prose prose-stone mx-auto p-4"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      fetch("./appreciationboard/current_week.md")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("content").innerHTML = marked.parse(data);
+        });
+    </script>
+  </body>
+</html>
