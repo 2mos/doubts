@@ -5,19 +5,16 @@ module.exports = {
   theme: {
     extend: {
       typography: ({ theme }) => ({
-        'stone-dark': {
+        "neutral-dark": {
           css: {
-            '--tw-prose-body': theme('colors.stone.100'),
-            '--tw-prose-headings': theme('colors.white'), 
-            '--tw-prose-pre-bg': theme('colors.stone.800'),
-            backgroundColor: theme('colors.stone.900'), 
+            "--tw-prose-body": theme("colors.neutral.100"),
+            "--tw-prose-headings": theme("colors.white"),
+            "--tw-prose-pre-bg": theme("colors.neutral.800"),
+            backgroundColor: theme("colors.neutral.900"),
           },
         },
       }),
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
-}
-
+  plugins: [require("@tailwindcss/typography")],
+};
