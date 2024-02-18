@@ -17,8 +17,8 @@ Members who've completed 50+ hours this week 🥳 Cheers to those for putting in
 7. ***Sakuna***
 8. ⚡Arcus ⚡
 
-# Honorable mentions 😸
-Really proud of y'all for learning from last week and getting your warnings cancelled ⚡
+# Honorable mentions ⚡
+Really proud of y'all for learning from last week and getting your warnings cancelled 🥳
 1. clumsy.bishh
 2. HArsh
 
@@ -30,6 +30,7 @@ Additional Notes: this week
 2. 8 warning tickets handed out
 ```
 
-Don't be disheartened if you've received a warning ticket, let's change it this week by studying consistently and learning from last week's mistakes 💪 Trust me I really hate handing out warnings especially to those whom I want to see here, expecting y'all to be the shit this time 😁
+Don't be disheartened if you've received a warning ticket, let's change it this week by studying consistently and learning from last week's mistakes 💪
+Trust me I really hate handing out warnings especially to those whom I want to see here, expecting y'all to be the shit this time 😁
 
 ???
