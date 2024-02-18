@@ -1,4 +1,6 @@
 JEE April 2024 🚀, Week 2 (19/02/24)✨
+
+Days Left for [JEE Mains April](https://jee.is-probably.gay/): 45
 # Wizards 🧙‍♂️
 Members who've completed 70+ hours this week 🥳 Thanks for being a source of inspiration for us throughout the week 🙏
 1. "Neha"

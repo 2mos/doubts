@@ -10,6 +10,8 @@ module.exports = {
             "--tw-prose-body": theme("colors.neutral.100"),
             "--tw-prose-headings": theme("colors.white"),
             "--tw-prose-pre-bg": theme("colors.neutral.800"),
+            "--tw-prose-bold": theme("colors.white"),
+            "--tw-prose-links": theme("colors.blue.600"),
             backgroundColor: theme("colors.neutral.900"),
           },
         },

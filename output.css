@@ -1098,5 +1098,7 @@ video {
   --tw-prose-body: #f5f5f5;
   --tw-prose-headings: #fff;
   --tw-prose-pre-bg: #262626;
+  --tw-prose-bold: #fff;
+  --tw-prose-links: #2563eb;
   background-color: #171717;
 }
