@@ -1,4 +1,4 @@
-JEE April 2024 🚀, Week 2 (26/02/24)✨
+JEE April 2024 🚀, Week 3 (26/02/24)✨
 
 Days Left for [JEE Mains April](https://jee.is-probably.gay/): 38
 # Wizards 🧙‍♂️
