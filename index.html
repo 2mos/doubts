@@ -8,8 +8,13 @@
   </head>
 
   <body class="prose prose-neutral dark:prose-neutral-dark mx-auto p-4">
-    <div id="content"></div>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <h1>Doubt clearance</h1>
+    <ul>
+      <li>
+        <a href="https://www.pw.live/study/saarthi/concepts">Conceptual</a>
+      </li>
+      <li><a href="https://www.pw.live/study/saarthi/doubts">Questions</a></li>
+    </ul>
     <script>
       const colorSchemeQuery = window.matchMedia(
         "(prefers-color-scheme: dark)"
@@ -30,12 +35,6 @@
       };
 
       colorSchemeQuery.addEventListener("change", colorSchemeChange);
-
-      fetch("./appreciationboard/current_week.md")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("content").innerHTML = marked.parse(data);
-        });
     </script>
   </body>
 </html>
